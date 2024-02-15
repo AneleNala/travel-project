@@ -1,9 +1,54 @@
-h1 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-size: 50px;
+header {
+  padding: 200px 10px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("/images/backgroundimage.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
+header h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 96px;
+  text-align: center;
+  color: white;
+  margin: 30px 0;
+}
+
+header h2 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-weight: 400;
+  color: white;
+  font-size: 40px;
+  margin: 0;
+}
+header h3 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-weight: 900;
+  color: white;
+  font-size: 20px;
+  margin: 0;
+  font-size: 24px;
+}
+
+header button {
+  display: block;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: white;
+  border: none;
+}
+
+header button a {
+  color: black;
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 footer p {
   font-family: "Poppins", sans-serif;
 }
