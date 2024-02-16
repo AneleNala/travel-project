@@ -1,5 +1,6 @@
 body {
   background-color: #417daf;
+  margin: 5px;
 }
 
 .container {
@@ -165,6 +166,10 @@ main p {
 .embed {
   width: 100%;
   aspect-ratio: 4/3;
+}
+
+.gallery-embed {
+  margin: 20px 0;
 }
 .img-responsive {
   width: 100%;
