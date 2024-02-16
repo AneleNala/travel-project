@@ -8,6 +8,9 @@ body {
   background-color: white;
 }
 
+section.secondary {
+  background-color: whitesmoke;
+}
 section {
   max-width: 100%;
   margin: 0 auto;
@@ -137,13 +140,15 @@ main p {
   font-size: 16px;
   line-height: 1.5;
 }
-
+.card-header.grid {
+  grid-gap: 0;
+}
 .card-body {
   padding: 30px;
 }
 
 .card {
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 .grid {
@@ -153,6 +158,18 @@ main p {
 
 .grid-3-columns {
   grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+.embed {
+  width: 100%;
+  aspect-ratio: 4/3;
+}
+.img-responsive {
+  width: 100%;
+  display: block;
+  aspect-ratio: 4/3;
 }
 
 footer {
@@ -205,5 +222,13 @@ footer p {
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 32px;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16/9;
   }
 }
