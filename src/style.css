@@ -8,6 +8,12 @@ body {
   background-color: white;
 }
 
+section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 100px;
+}
+
 header {
   padding: 150px 10px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -67,6 +73,27 @@ header button a {
   grid-gap: 30px;
   padding: 100px;
 }
+
+.text-center {
+  text-align: center;
+}
+
+main button {
+  display: block;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: #417daf;
+  border: none;
+}
+
+main button a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
 main h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -78,9 +105,26 @@ main h2 {
 }
 
 main h3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+main h4 {
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 24px;
+  line-height: 1;
+  color: black;
+  margin: 0;
+}
+main h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  margin: 0;
+  line-height: 1;
+  color: black;
 }
 main img {
   max-width: 100%;
@@ -92,6 +136,23 @@ main p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card {
+  background-color: whitesmoke;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 64px;
+}
+
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 footer {
@@ -139,5 +200,10 @@ footer p {
 
   header h3 {
     font-size: 12px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
   }
 }
